@@ -2179,7 +2179,7 @@ label {
         font-size: 25px; } }
   .customer-caption .caption-details .pera-dtails {
     color: #112e41 !important;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 69px;
     margin-bottom: 30px;
     font-family: 'Lato', sans-serif;
@@ -2325,17 +2325,25 @@ label {
     .service-experience {
       padding: 18px 0; } }
   .service-experience h3 {
+	  font-family: "lato";
+	  font-weight: 200;
     color: #ffffff;
-    font-size: 35px; }
+    font-size: 28px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .service-experience h3 {
-        font-size: 28px; } }
+		  font-family: "lato";
+		  font-weight: 100;
+        font-size: 25px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .service-experience h3 {
-        font-size: 25px; } }
+		  font-family: "lato";
+		  font-weight: 100;
+        font-size: 23px; } }
     @media (max-width: 767px) {
       .service-experience h3 {
-        font-size: 23px; } }
+		  font-family: "lato";
+		  font-weight: 100;
+        font-size: 20px; } }
 
 .btn i {
   color: #ffffff;
@@ -2351,10 +2359,14 @@ label {
   border-top: transparent; }
   
 .room-caption .imgspan{
-	  font-family: "Times New Roman";
-	  text-indent:30px;
+	  font-family: "宋体";
+	  font-weight: 100;
+	  color: #888888;
+	  line-height: 28px;
+	  font-size: 15px;
+	  /* text-indent:30px; */
 	  font-style:normal;
-	  font-weight: normal;
+	 /* font-weight: normal; */
   }
 
 .single-room:hover .room-img img {
@@ -2470,7 +2482,7 @@ label {
       content: "";
       top: 0;
       bottom: 0;
-      background-image: url(../img/dining/dining-img.png);
+      background-image: url(../img/dining/about1.jpg);
       width: 50%;
       border-radius: 0 5px 0 0;
       background-size: cover;
@@ -2486,7 +2498,7 @@ label {
       content: "";
       top: 0;
       bottom: 0;
-      background-image: url(../img/dining/dining-img2.png);
+      background-image: url(../img/dining/about2.jpg);
       width: 50%;
       border-radius: 0 0 0 5px;
       background-repeat: no-repeat;
@@ -2548,13 +2560,13 @@ label {
 
 .testimonial-area .rattiong-caption span {
   color: #112e41;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
   
   text-transform: uppercase; }
   .testimonial-area .rattiong-caption span span {
     color: #767676;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: capitalize; }
 
 /* Homepage1 Testimonial */
